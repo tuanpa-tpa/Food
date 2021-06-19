@@ -19,6 +19,14 @@ html {
 /* REUSABLE COMPOMENTS */
 /* --------------------------- */
 
+.clearfix:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+}
+
 .row {
     max-width: 1140px;
     margin: 0 auto;
@@ -39,10 +47,11 @@ h1 {
     word-spacing: 4px;
 }
 h2 {
-    margin-bottom: 30px;
-    text-align: center;
     font-size: 180%;
     word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
 }
 
 h2:after {
@@ -94,6 +103,41 @@ h3 {
     color: #fff;
 }
 
+/* ------------ SECTION -------------- */
+
+.section {
+    padding: 80px 0;
+}
+
+/* ------------ ICONS -------------- */
+
+.icon-small {
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    font-size: 120%;
+    color: #e67e22;
+}
+
+/* ------------ LINK -------------- */
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #e67e22;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    transition: all 0.3s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
+
+
 /* --------------------------- */
 /* HEADER */
 /* --------------------------- */
@@ -143,6 +187,7 @@ nav {
     text-decoration: none;
     font-size: 90%;
     font-weight: 300;
+    border: 0;
 }
 .main-nav li a:hover,
 .main-nav li a:active {
@@ -221,6 +266,7 @@ nav {
 .meal-image img {
     opacity: 0.7;
     width: 100%;
+    height: auto;
     transform: scale(1.15);
     transition: all 0.5s;
 }
@@ -230,6 +276,94 @@ nav {
     opacity: 1;
     transform: scale(1.03);
 }
+
+
+
+/* --------------------------- */
+/* SECTION-STEP */
+/* --------------------------- */
+
+.section-step {
+    padding: 80px 0;
+    background-color: #f4f4f4;
+}
+
+.steps-box {
+    margin-top: 50px;
+}
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top:70px;
+}
+
+
+.app-screen {
+    width: 40%;
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.works-step:last-of-type {
+    margin-bottom: 80px;
+}
+
+.works-step div {
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    font-size: 150%;
+    width: 54px;
+    height: 54px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 25px;
+    float: left;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+
+
+/* --------------------------- */
+/* SECTION-CiTIES */
+/* --------------------------- */
+
+
+.section-cities {
+    padding: 80px 0;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature {
+    margin-bottom: 10px;
+}
+
+
+
+
+
 
 
 
