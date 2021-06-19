@@ -502,6 +502,64 @@ input[type=checkbox] {
 *:focus {outline: none}; /* dùng để xoá outline khi bấm vào */
 
 
+/* --------------------------- */
+/* FOOTER */
+/* --------------------------- */
+
+
+footer {
+    padding: 80px 0;
+    background-color: #333;
+}
+
+.footer-nav {
+    list-style: none;
+}
+
+.social-links {
+    list-style: none;
+}
+
+
+.footer-nav li {
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+
+.social-links li {
+    display: block;
+    float: right;
+    margin-right: 20px;
+    font-size: 90%;
+}
+
+.social-links li a:link,
+.social-links li a:visited,
+.footer-nav li a:link,
+.footer-nav li a:visited {
+    border: 0;
+    text-decoration: none;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.social-links li a:hover,
+.social-links li a:active,
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+footer p {
+    font-size: 90%;
+    margin-top: 30px;
+    color: #888;
+    text-align: center;
+}
+
+
+
 
 
 
