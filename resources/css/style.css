@@ -66,14 +66,15 @@ h2:after {
 
 h3 {
     font-size: 110%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 
 /* ------------ BUTTON -------------- */
 
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit] {
     color: #fff;
     display: inline-block;
     padding: 10px 30px;
@@ -85,7 +86,8 @@ h3 {
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
     background-color: #e67e22;
     margin-right: 15px;
 }
@@ -95,8 +97,10 @@ h3 {
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+input[type=submit]:hover {
     background-color: #cf6d17;
+    cursor: pointer;
 }
 
 .btn-ghost:hover {
@@ -465,6 +469,39 @@ cite img {
 .plan-box ul li {
     padding: 5px 0;
 }
+
+/* --------------------------- */
+/* SECTION-FORM */
+/* --------------------------- */
+
+.section-form {
+    padding: 80px 0;
+    width: 50%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    font-weight: 300;
+    width: 100%;
+    border-radius: 5px;
+    padding: 7px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {outline: none}; /* dùng để xoá outline khi bấm vào */
+
+
 
 
 
