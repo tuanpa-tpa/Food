@@ -147,6 +147,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
 }
 
@@ -319,7 +320,7 @@ nav {
 .works-step div {
     color: #e67e22;
     border: 2px solid #e67e22;
-    display: inline-block;
+    display: block;
     font-size: 150%;
     width: 54px;
     height: 54px;
@@ -360,9 +361,47 @@ nav {
     margin-bottom: 10px;
 }
 
+/* --------------------------- */
+/* SECTION-TESTIMONIALS */
+/* --------------------------- */
 
+.section-testimonials {
+    padding: 80px 0;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/back-customers.jpg);
+    background-attachment: fixed;
+    color: #fff;
+    background-size: cover;
+}
 
+blockquote {
+    position: relative;
+    margin-top: 50px;
+    padding: 2%;
+    font-style: italic;
+    line-height: 140%;
+}
 
+blockquote:before {
+    position: absolute;
+    content: "\201C";
+    display: block;
+    font-size: 500%;
+    top: -5px;
+    left: -5px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    vertical-align: middle;
+}
 
 
 
