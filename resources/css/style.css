@@ -7,13 +7,15 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     background-color: #fff;
     color: #555;
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 /* --------------------------- */
 /* REUSABLE COMPOMENTS */
@@ -109,7 +111,7 @@ input[type=submit]:hover {
 
 /* ------------ SECTION -------------- */
 
-.section {
+section {
     padding: 80px 0;
 }
 
@@ -160,8 +162,8 @@ header {
     position: absolute;
     left: 50%;
     top: 50%;
-    /* width: calc(1140px/2); */
     width: 1140px;
+    margin: 0 auto;
     transform: translate(-50%,-50%);
 }
 
@@ -213,10 +215,10 @@ nav {
 /* FEATURES */
 /* --------------------------- */
 
-.section-features {
+/* .section-features {
     padding-top: 80px;
     padding-bottom: 80px;
-}
+} */
 
 .long-copy {
     width: 70%;
@@ -247,6 +249,7 @@ nav {
 
 .section-meals {
     margin: 0;
+    padding: 0;
 }
 
 .meals-showcase  {
@@ -290,7 +293,7 @@ nav {
 /* --------------------------- */
 
 .section-step {
-    padding: 80px 0;
+    /* padding: 80px 0; */
     background-color: #f4f4f4;
 }
 
@@ -352,9 +355,9 @@ nav {
 /* --------------------------- */
 
 
-.section-cities {
-    padding: 80px 0;
-}
+/* .section-cities {
+    /* padding: 80px 0; */
+} */
 
 .box img {
     width: 100%;
@@ -416,7 +419,7 @@ cite img {
 
 
 .section-plans {
-    padding: 80px 0;
+    /* padding: 80px 0; */
     background-color: #f4f4f4;
 }
 
@@ -475,8 +478,8 @@ cite img {
 /* --------------------------- */
 
 .section-form {
-    padding: 80px 0;
-    width: 50%;
+    /* padding: 80px 0; */
+    /* width: 100%; */
     margin: 0 auto;
 }
 
