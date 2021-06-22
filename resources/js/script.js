@@ -9,7 +9,7 @@ $(document).ready(function() {
             $('nav').removeClass('sticky');
         }
     }, {
-      offset: '60px;'
+      offset: '80px;'
     });
     
     
@@ -64,6 +64,13 @@ $(document).ready(function() {
     }, {
         offset: '50%'
     });
+
+    $('.js--wp-title').waypoint(function(direction) {
+        $('.js--wp-title').addClass('animated fadeInUpBig');
+    }, {
+        offset: '80%'
+    });
+
     
     
     /* Mobile navigation */
