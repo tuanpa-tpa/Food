@@ -209,9 +209,19 @@ header {
     width: auto;
     margin: 15px;
 }
+/* mobile nav */
 
+.mobile-nav-icon {
+    display: none;
+    border: 2px solid transparent;
+}
+.mobile-nav-icon i {
+    cursor: pointer;
+    font-size: 200%;
+    color: #fff;
+}
 
-/* sticky */
+/* sticky nav */
 
 
 .logo-black {
@@ -248,6 +258,10 @@ header {
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     font-weight: 300;
+}
+
+.sticky .mobile-nav-icon i {
+    color: #555;
 }
 
 
