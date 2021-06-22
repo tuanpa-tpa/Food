@@ -151,7 +151,7 @@ a:active {
 
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-min.jpeg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -431,7 +431,7 @@ header {
 
 .section-testimonials {
     padding: 80px 0;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/back-customers.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./img/back-customers-min.jpeg);
     background-attachment: fixed;
     color: #fff;
     background-size: cover;
